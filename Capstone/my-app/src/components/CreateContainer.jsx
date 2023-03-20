@@ -2,7 +2,10 @@ import React from "react";
 
 const CreateContainer = () => {
   return (
-    <div>CreateContainer</div>
+    <div className="w-full min-h-screen flex items-center justify-center">
+      <div className="w-[90%] md:w-[75%] border border-gray-200 rounded-lg 
+      p-4 flex flex-col items-center justify-center"></div>
+    </div>
   )
 }
 
